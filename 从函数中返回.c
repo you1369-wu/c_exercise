@@ -2,7 +2,7 @@
 //return表达式
 //函数的返回值可以被送给一个新变量或者再传递给别的函数
 //一个函数可以有多个return，但是单一出口最好
-//没有返回值的函数要用void
+//没有返回值的函数要用void，没有返回值的函数不能把结果赋给别的变量
 #include <stdio.h>
 int Isprime(int num){
         int i=2;
